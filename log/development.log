@@ -1,0 +1,1366 @@
+Started GET "/" for 127.0.0.1 at 2017-10-10 19:23:39 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 183ms (Views: 7.0ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:23:42 +0300
+  
+AbstractController::ActionNotFound (The action 'isums' could not be found for SumsController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:23:55 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 486ms (Views: 485.8ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:24:00 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:24:01 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.1ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:24:02 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 12.6ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:24:02 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 13.8ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:24:03 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.9ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:24:03 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.4ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:26:19 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ALB6hWb+7o14za/qW4P4UYXrzhnVLaDRU7g4YuFdi89pyhZEgcq1i0ysQWTSOptacKi4xrUfxYQ8yARzKxFKOA==", "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:10:in `create'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:26:35 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 21.4ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:26:47 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQt4awfZRw3NkONyNuatr8/GdUryFvZf3B8iT28mWJFYcRSq4O0cC/nxDfy/X86kOoUDlZIkkwqzbx5epWqZZg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f5895c3fc40 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2819-joj187.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 1.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:27:04 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQt4awfZRw3NkONyNuatr8/GdUryFvZf3B8iT28mWJFYcRSq4O0cC/nxDfy/X86kOoUDlZIkkwqzbx5epWqZZg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f58950fdf08 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2819-g8jk50.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:27:42 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQt4awfZRw3NkONyNuatr8/GdUryFvZf3B8iT28mWJFYcRSq4O0cC/nxDfy/X86kOoUDlZIkkwqzbx5epWqZZg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f5894900620 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2819-1j5sktk.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.0ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:39:08 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 343ms (Views: 177.8ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:39:16 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fGZwLdaW5mSoE7dRgZJxrjlNhZhumVO9gVCM+5+mL6IVHBzsMaK9YpxyWd8IKxKlzA7zRw6rNujuILDqVeruVQ==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f2814076280 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-1qpkyot.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:14:in `to_f'
+app/controllers/sums_controller.rb:14:in `block in create'
+app/controllers/sums_controller.rb:13:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:41:58 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fGZwLdaW5mSoE7dRgZJxrjlNhZhumVO9gVCM+5+mL6IVHBzsMaK9YpxyWd8IKxKlzA7zRw6rNujuILDqVeruVQ==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f281149a328 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-1gy921f.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:42:43 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fGZwLdaW5mSoE7dRgZJxrjlNhZhumVO9gVCM+5+mL6IVHBzsMaK9YpxyWd8IKxKlzA7zRw6rNujuILDqVeruVQ==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f280c0dc498 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-q7utmj.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.6ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:42:50 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.8ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:42:57 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ihBMhA7qnVkWTyJEISRlGcXeVFHsJCUC7Ba2OpdSo0HjaiBF6d7GXyIuzMqonQYSMJ0ijowWQFeDZoorXR5itg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f28122ff210 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-8dp860.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 19:43:00 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 13.1ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:44:03 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WbKWDaLnT0nE1QGIckFH3XjOdPYMdV2mFTCoLE0kqPUwyPrMRdMUT/C07wb7+CTWjY0CKWxHOPN6QJQ9h2hpAg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f28080740e0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-1wtvmxj.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:45:18 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WbKWDaLnT0nE1QGIckFH3XjOdPYMdV2mFTCoLE0kqPUwyPrMRdMUT/C07wb7+CTWjY0CKWxHOPN6QJQ9h2hpAg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f2810e170f0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-gxkts.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 19:45:27 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WbKWDaLnT0nE1QGIckFH3XjOdPYMdV2mFTCoLE0kqPUwyPrMRdMUT/C07wb7+CTWjY0CKWxHOPN6QJQ9h2hpAg==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x0055637afb9900 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3619-jz83nz.csv>, @original_filename="convertcsv.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"convertcsv.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.7ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 20:10:50 +0300
+  
+AbstractController::ActionNotFound (The action 'sums' could not be found for SumsController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:11:08 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0056143526c290 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-t1rbjb.csv>, @original_filename="convertcsv.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"convertcsv.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 163ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:10:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:11:47 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561433b13710 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-16seown.csv>, @original_filename="convertcsv.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"convertcsv.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:10:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:14:49 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434bbcd78 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-b0o5a9.csv>, @original_filename="convertcsv.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"convertcsv.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:10:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:15:37 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435360278 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-o4br73.csv>, @original_filename="convertcsv.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"convertcsv.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:10:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:21:32 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005614348671c8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-zfc4l1.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:10:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:12 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434927e00 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-169bn22.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:14 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434adfbf8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-sjvhqv.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:14 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435411f28 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-3ola6m.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:15 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434cb80b0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-sasphc.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:15 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435418008 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-krpmxp.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:15 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561433a69288 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-12jxgo1.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:15 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434f715e0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1no2ear.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:16 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0056143565ef88 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1yu2l3h.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:16 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0056143498f848 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1v02xon.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:16 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435164dc0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-gtdzdn.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:16 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005614329e09e8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-18x7z0u.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:17 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434b52040 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1s4qjk4.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:17 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435292dc8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1n9z0o9.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:17 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005614336d4b90 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-bqw0qr.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:30:17 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434cacc88 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-12sndod.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:32:51 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435223dd8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-hw1y7s.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:32:53 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005614335a9ce8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1a08jym.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:33:04 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434b49990 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1dfosao.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:33:13 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435208fd8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1qj88fg.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:9:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:33:44 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561434864040 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1mf4hn8.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:33:45 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0056143491f868 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1dvwvnr.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:33:46 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435031728 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-un9i3r.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 20:41:01 +0300
+Processing by FiltersController#filters as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005614353a7448 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-1t71rjz.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/filters_controller.rb:6:in `filters'
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 20:47:58 +0300
+Processing by FiltersController#filters as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561435609f38 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-9b9op4.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/filters_controller.rb:6:in `filters'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:48:05 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x007f2625289518 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-12qj717.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:48:06 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x007f26283741a0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-112j5k4.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:48:08 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x007f263098a898 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5949-ehoi2q.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:49:25 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+    result = result.ceil(2):raise
+                            ^):
+  
+app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:49:40 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+    result.ceil(2):raise
+                   ^):
+  
+app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:49:51 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+    result.ceil(2):raise
+                   ^):
+  
+app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:52:16 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005635837ffcb0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-8333-p47nba.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Completed 500 Internal Server Error in 147ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:52:30 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00563583ab1990 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-8333-ddxleh.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:53:11 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00563583f53e30 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-8333-19a6s9v.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 20:55:07 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055b79ca06dc0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-8633-18jrdcf.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 172ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started GET "/" for 127.0.0.1 at 2017-10-10 21:02:16 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 165ms (Views: 6.3ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:02:21 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 232ms (Views: 230.6ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:02:27 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cVMyfBxOYbMYOFFVmNxUcb45YdXTE2funirxhrZz9BcYKV69+3o6tSxZv9sRZTd6S3oXCrMhArvxWs2XfD814A==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e4022de8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-13p6yre.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 717ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:12:in `ceil'
+app/controllers/sums_controller.rb:12:in `create'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:03:05 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:03:09 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gps99CRhnvYGZsgGaKptMNbdhENWM79QhYuWUAMSsXDr4VE1w1XF8DIHJojhEw47I57ynDYB2gXq+6pByV5whw==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e44cf670 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-1xqlwn.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 707ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:12:in `ceil'
+app/controllers/sums_controller.rb:12:in `create'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:03:27 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:03:31 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LX8NH97uYKwGiLnU7/tVrrSyfwTt6s9cFG15n2t0FsREBWHeOdo7qjLpV1pmQjalQfEJ243Yqgl7HUWOoTjXMw==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e43237b8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-xcu7rd.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 692ms (Views: 1.0ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:04:07 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+    result = result.ceil(2):raise
+                            ^):
+  
+app/controllers/sums_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:04:36 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.5ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:04:44 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LANdKEPJ4lW2X3Za0ukvsOs/iB9OpoiwyiYwOMff2h5FeTHppP25U4I+mNRbUEy7Hnz+wC6U7eWlVgwpDZMb6Q==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e457a6d8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-x3he49.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 665ms (Views: 0.4ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:05:42 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LANdKEPJ4lW2X3Za0ukvsOs/iB9OpoiwyiYwOMff2h5FeTHppP25U4I+mNRbUEy7Hnz+wC6U7eWlVgwpDZMb6Q==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e442e4f0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-1sohwb7.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 673ms (Views: 0.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:05:53 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LANdKEPJ4lW2X3Za0ukvsOs/iB9OpoiwyiYwOMff2h5FeTHppP25U4I+mNRbUEy7Hnz+wC6U7eWlVgwpDZMb6Q==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x00556f115eebf8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-176pbk6.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 702ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:12:in `ceil'
+app/controllers/sums_controller.rb:12:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:10:05 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/sums_controller.rb:12: class definition in method body):
+  
+app/controllers/sums_controller.rb:12: class definition in method body
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:10:36 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LANdKEPJ4lW2X3Za0ukvsOs/iB9OpoiwyiYwOMff2h5FeTHppP25U4I+mNRbUEy7Hnz+wC6U7eWlVgwpDZMb6Q==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e1d14220 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-jgi88n.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 739ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:18:in `ceil'
+app/controllers/sums_controller.rb:18:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:10:53 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LANdKEPJ4lW2X3Za0ukvsOs/iB9OpoiwyiYwOMff2h5FeTHppP25U4I+mNRbUEy7Hnz+wC6U7eWlVgwpDZMb6Q==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e1496210 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-13peke1.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 685ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:18:in `ceil'
+app/controllers/sums_controller.rb:18:in `create'
+Started GET "/" for 127.0.0.1 at 2017-10-10 21:12:49 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 6ms (Views: 4.1ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:12:52 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 20.1ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:12:58 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LY4jHXVUHNtw38gh7/XE6IJe0qT2Lgzgutyo08SIXDJE9E/ckmBH3US+Jq9mTKfjdx2ke5YcabXVrJTCDsSdxQ==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e45e7ad0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-g4b932.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 686ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/sums_controller.rb:12:in `ceil'
+app/controllers/sums_controller.rb:12:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:14:37 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LY4jHXVUHNtw38gh7/XE6IJe0qT2Lgzgutyo08SIXDJE9E/ckmBH3US+Jq9mTKfjdx2ke5YcabXVrJTCDsSdxQ==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fc9e20442d8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9053-txzigl.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 673ms (Views: 0.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:39 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561825a0afa8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-bt2hyk.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 171ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:41 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561823e1e808 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-182hp8z.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:42 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561826fbd198 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-vvvol8.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:42 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005618275d8190 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-rwrti6.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:43 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561826765fe0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-jzq22h.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:43 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x005618272163e0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-1gepkc5.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:43 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561825919ae0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-u9xq92.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:43 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561826dccb40 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-sd7kzk.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:44 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561827537178 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-16lfag4.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:15:47 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561826941e90 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-mp42x0.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:17:24 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x00561826f8f158 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9755-1phfogo.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:23 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb2eaaa90 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-1n4bjt6.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 168ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:24 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb12c2a08 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-j2wvgx.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:25 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb4484d48 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-iqkd7o.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:25 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb4a13f48 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-nbpn0b.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:26 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb3b87c68 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-bfqdia.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:26 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb46648c0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-127nzyo.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:26 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb2d83b30 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-1jgagyi.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:27 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb4219838 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-1veu0p2.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:27 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb498bdf0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-1f5zj4p.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:27 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb3da6788 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-2f0mfl.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:27 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb45282b8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-d4z9xd.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:28 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb2ac0830 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-ytozk2.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:55 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb3f21dd8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-rayje6.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:20:56 +0300
+Processing by SumsController#create as */*
+  Parameters: {"file "=>#<ActionDispatch::Http::UploadedFile:0x0055bdb4631ce0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-hbc2gv.csv>, @original_filename="1.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file \"; filename=\"1.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/sums_controller.rb:6:in `create'
+Started GET "/" for 127.0.0.1 at 2017-10-10 21:21:01 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 5ms (Views: 3.6ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:21:05 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 201ms (Views: 199.9ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:21:10 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7oYWUWeGOL31GHmZVEGYFfrSaCTdMLN/PK9NiYjKFreH/HqQgLJju8F5lxfd+PseD5Ee+70C1ipT33GYQobXQA==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f5fcce0bc70 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-1jcheeb.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+Completed 500 Internal Server Error in 677ms
+
+
+  
+ActionView::MissingTemplate (Missing template sums/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/alliancehealer/TP1/app/views"
+):
+  
+app/controllers/sums_controller.rb:13:in `create'
+Started GET "/" for 127.0.0.1 at 2017-10-10 21:38:39 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 5ms (Views: 4.2ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:38:44 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 23.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:38:50 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQY9VLbZfCtgabmCN20cgYOqRi4Oxf4TVxuEroBSaEZYfFGVUe0nLVQIVwy+1H+Kdukw8W73m0Y4a7i/Sh6psQ==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007f5fbdd393d8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-9977-dmw0ek.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 780ms (Views: 1.4ms)
+
+
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:38:54 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:39:38 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_elsif
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_elsif
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-10-10 21:41:10 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/alliancehealer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 5ms (Views: 4.0ms)
+
+
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:41:14 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_elsif
+          elsif i >29
+               ^
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_elsif
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:41:50 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+          else i >29
+              ^
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:41:52 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+          else i >29
+              ^
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:41:52 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+          else i >29
+              ^
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:42:01 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:42:02 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:42:02 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:42:02 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:42:02 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:42:03 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_else
+app/controllers/intervals_controller.rb:21: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:43:49 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms)
+
+
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:43:54 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:22: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:27: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:15: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:22: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:27: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:44:45 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:22: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:22: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:45:00 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:45:15 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:45:26 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:22: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 21:46:36 +0300
+  
+SyntaxError (/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:11: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:16: syntax error, unexpected '}'
+          }elsif i < 29{
+           ^
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:16: syntax error, unexpected '{', expecting keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:20: syntax error, unexpected '}', expecting keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:22: syntax error, unexpected keyword_end
+/home/alliancehealer/TP1/app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:11: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+app/controllers/intervals_controller.rb:16: syntax error, unexpected '}'
+app/controllers/intervals_controller.rb:16: syntax error, unexpected '{', expecting keyword_end
+app/controllers/intervals_controller.rb:20: syntax error, unexpected '}', expecting keyword_end
+app/controllers/intervals_controller.rb:22: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 21:51:27 +0300
+Processing by SumsController#sums as HTML
+  Rendering sums/sums.html.erb within layouts/application
+  Rendered sums/sums.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 392ms (Views: 232.0ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 21:51:32 +0300
+Processing by SumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qaOpO6jsM3XpxwBrWUUQI09+6pfuGxnbLx042fokg2zA2cX6T9hoc92m7uXQ/HMouj2cSI4pfI5AbQTIMGhCmw==", "csv_file"=>#<ActionDispatch::Http::UploadedFile:0x007fe14002a5e8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-11775-1xzac20.csv>, @original_filename="1.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"csv_file\"; filename=\"1.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload file"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 778ms (Views: 1.5ms)
+
+
